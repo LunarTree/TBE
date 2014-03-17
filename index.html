@@ -1,45 +1,68 @@
-<!doctype html>
-
+<!DOCTYPE html>
 <html>
   
   <head>
-    <title>Tour Bus Exercises</title>
+    <title>Tour Fit</title>
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="bootstrap.min.css">
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-    <script type="text/javascript" src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="bootstrap.min.js"></script>
+  <script type="text/javascript" src="script.js"></script>
   </head>
   
   <body>
     <div class="container">
-      <div class="navbar navbar-default">
+      <div class="navbar navbar-default navbar-fixed-top">
         <div class="container">
           <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
               <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
             </button>
-            <a href="#" class="navbar-brand">Tour Bus Exercises</a>
+            <a href="#" class="navbar-brand">Tour Fit</a>
           </div>
           <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
-              <li>
-                <a href="#">Home</a>
+
+			  <li>
+                <a href="allexercises.html">Tour Bus</a>
               </li>
 			  <li>
-                <a href="allexercises.html">All</a>
+                <a href="breathing.html">Breathing</a></li><li><a href="comingsoon.html">Hotel</a>
               </li>
-			  <li>
-                <a href="categorys.html">Category's</a>
+			   <li>
+                <a href="about.html">About</a></li>
               </li>
             </ul>
           </div>
         </div>
       </div>
-      <ul class="list-group">
-        <a href="allexercises.html"><li class="list-group-item list-group-item-one">All Exercises</li></a>
-        <a href="categorys.html"><li class="list-group-item list-group-item-three">Categories</li></a>
-        <a href="about.html"><li class="list-group-item list-group-item-five">About</li></a>
-      </ul>
+	  
+	<div class="alert alert-warning alert-dismissable">
+		  <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+		  <strong>Warning!</strong> All of the exercises contained should be performed while sitting on a chair 
+		  that provides good support.
+	</div>
+	<div class="alert alert-warning alert-dismissable">
+		  <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+		  <strong>Warning!</strong> Exercises should not be attempted while driving.
+	</div>
+      <div class="list-group col-xs-6">
+        <a href="allexercises.html" class="list-group-item list-group-item-four">Tour Bus Exercises
+		<img src="icontile.png" id="icon"></a>
+      </div>
+	  <div class="list-group col-xs-6">
+        <a href="breathing.html" class="list-group-item list-group-item-six">Breathing Exercises</a>
+        <a href="comingsoon.html" class="list-group-item list-group-item-two">Hotel Room Exercises</a>
+		<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1&appId=147103002124159";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+      </div>
+	  
     </div>
   </body>
 

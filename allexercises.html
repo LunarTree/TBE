@@ -3,49 +3,100 @@
 <html>
   
   <head>
-    <title>Tour Bus Exercises: All</title>
+    <title>Tour Fit: All Exercises</title>
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="bootstrap.min.css">
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-    <script type="text/javascript" src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="bootstrap.min.js"></script>
+  <script type="text/javascript" src="script.js"></script>
   </head>
   
   <body>
     <div class="container">
-      <div class="navbar navbar-default">
+      <div class="navbar navbar-default navbar-fixed-top">
         <div class="container">
           <div class="navbar-header">
-<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-              <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
             </button>
-            <a href="index.html" class="navbar-brand">Tour Bus Exercises</a>
+            			<img src="back.png" onclick="goBack()" class="navbar-brand"><a href="index.html" class="navbar-brand">Tour Fit</a>
           </div>
           <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
-              <li>
-                <a href="index.html">Home</a>
+
+			  <li>
+                <a href="allexercises.html">Tour Bus</a>
               </li>
 			  <li>
-                <a href="allexercises.html">All</a>
-              </li>
-			  <li>
-                <a href="categorys.html">Category's</a>
+                <a href="breathing.html">Breathing</a></li><li><a href="comingsoon.html">Hotel</a>
               </li>
             </ul>
           </div>
         </div>
       </div>
-      <ul class="list-group">
-       <a href="catcow.html"><li class="list-group-item list-group-item-one">Chair Cat / Cow</li></a>
-        <a href="catcow.html"><li class="list-group-item list-group-item-two">Chair Pigeon</li></a>
-        <a href="catcow.html"><li class="list-group-item list-group-item-three">Exercises 2</li></a>
-        <a href="catcow.html"><li class="list-group-item list-group-item-four">Chair Cat / Cow</li></a>
-        <a href="catcow.html"><li class="list-group-item list-group-item-five">Exercises 1</li></a>
-        <a href="catcow.html"><li class="list-group-item list-group-item-six">Exercises 2</li></a>
-        <a href="catcow.html"><li class="list-group-item list-group-item-seven">Chair Cat / Cow</li></a>
-        <a href="catcow.html"><li class="list-group-item list-group-item-eight">Exercises 1</li></a>
-      </ul>
+	  <div class="list-group col-xs-6">
+		<a href="Abstwister.html" class="list-group-item list-group-item-one">Abs Twister<img src="icontile.png" id="icon"></a>
+		
+		<a href="armcircles.html" class="list-group-item list-group-item-three">Arm Circles</a>
+		
+		<a href="calveraises.html" class="list-group-item list-group-item-five">Calve Raises</a>
+		
+		<a href="ChairPigeon.html" class="list-group-item list-group-item-seven">Chair Pigeon</a>
+		
+		<a href="extendedtriceppress.html" class="list-group-item list-group-item-one">Extended Triceps Press<img src="icontile.png" id="icon"></a>
+		
+		<a href="forwardflex.html" class="list-group-item list-group-item-three">Forward Flex</a>
+		
+		<a href="innerthighsqeeze.html" class="list-group-item list-group-item-five">Inner Thigh Squeeze</a>
+		
+		<a href="militarypress.html" class="list-group-item list-group-item-seven">Military Press </a>
+		
+		<a href="neckroll.html" class="list-group-item list-group-item-one">Neck Roll<img src="icontile.png" id="icon"></a>
+		
+		<a href="necks2.html" class="list-group-item list-group-item-three">Neck Strengthening 2</a>
+		
+		<a href="obliquereaches_2.html" class="list-group-item list-group-item-five">Oblique Reaches Part 2</a>
+		
+		<a href="running.html" class="list-group-item list-group-item-seven">Running</a>
+		
+		<a href="seatedjumpingjacks.html" class="list-group-item list-group-item-one">Seated Jumping Jacks<img src="icontile.png" id="icon"></a>
+		
+		<a href="seatedmarch.html" class="list-group-item list-group-item-three">Seated March</a>
+		
+		<a href="seatedsuitcase.html" class="list-group-item list-group-item-five">Seated Suitcase</a>
+		
+		<a href="shoulderstrech.html" class="list-group-item list-group-item-seven">Shoulder Stretch</a>
+		
+		<a href="theclaw.html" class="list-group-item list-group-item-one">The Claw<img src="icontile.png" id="icon"></a>
+		
+		<a href="touchthesky.html" class="list-group-item list-group-item-three">Touch the Sky With Your Palms</a>
+		<a href="tricepcurl.html" class="list-group-item list-group-item-four">Tricep Curl<img src="icontile.png" id="icon"></a>
+		
+		</div>
+	  
+	  
+      <div class="list-group col-xs-6">
+		<a href="alternativeoverheadpress.html" class="list-group-item list-group-item-two">Alternate Overhead Press</a>
+		<a href="bicepcurl.html" class="list-group-item list-group-item-four">Bicep Curl<img src="icontile.png" id="icon"></a>
+		<a href="catcow.html" class="list-group-item list-group-item-six">Chair Cat-Cow Stretch</a>
+		<a href="eaglepose.html" class="list-group-item list-group-item-eight">Eagle Pose</a>
+		<a href="fingerlift.html" class="list-group-item list-group-item-two">Finger Lift</a>
+		<a href="hipflexion.html" class="list-group-item list-group-item-four">Hip Flexion<img src="icontile.png" id="icon"></a>
+		<a href="MakeaFist.html" class="list-group-item list-group-item-six">Make a Fist</a>
+		<a href="mountainpose.html" class="list-group-item list-group-item-eight">Mountain Pose</a>
+		<a href="necks1.html" class="list-group-item list-group-item-two">Neck Strengthening 1</a>
+		<a href="obliquereaches.html" class="list-group-item list-group-item-four">Oblique Reaches<img src="icontile.png" id="icon"></a>
+		<a href="overheadpress.html" class="list-group-item list-group-item-six">Overhead Press</a>
+		<a href="seatedboxing.html" class="list-group-item list-group-item-eight">Seated Boxing</a>
+		<a href="seatedlegextensions.html" class="list-group-item list-group-item-two">Seated Leg Extensions</a>
+		<a href="seatedpressup.html" class="list-group-item list-group-item-four">Seated Press-Ups<img src="icontile.png" id="icon"></a>
+		<a href="shoulderretractions.html" class="list-group-item list-group-item-six">Shoulder Retractions</a>
+		<a href="sidebends.html" class="list-group-item list-group-item-eight">Side Bends</a>
+		<a href="seatedcrunch.html" class="list-group-item list-group-item-two">The Seated Crunch </a>
+		
+    
     </div>
+	</div>
   </body>
 
 </html>
